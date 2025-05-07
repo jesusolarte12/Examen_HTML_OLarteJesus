@@ -1,0 +1,144 @@
+body {
+    background-color: #00d1ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.pagina-blanca {
+    background-color: white;
+    border-radius: 100px;
+    width: 80vw;
+    margin-top: 20px;
+}
+
+.encabezado {
+    justify-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.encabezado img {
+    height: 50px;
+}
+
+/* ____________________ANDRES____________________ */
+
+.Andres {
+    display: flex;
+    margin: 10px;
+}
+
+.imagen-andres {
+    margin: 30px 30px 0 31px;
+}
+
+.imagen-andres img{
+    height: 380px;
+}
+
+.imagen-andres p{
+    text-align: center;
+}
+
+.imagen-andres .p-azul{
+    color: #00d1ff;
+}
+
+.informacion-andres {
+    margin-top: 60px;
+}
+
+.parte-abajo-andres {
+    margin: -20px 0 30px 40px;
+}
+/* ____________________CAMILA____________________ */
+
+.Camila {
+    display: flex;
+    margin: 10px;
+}
+
+.imagen-camila {
+    margin: 30px 30px 0 31px;
+}
+
+.imagen-camila img{
+    height: 380px;
+}
+
+.imagen-camila p{
+    text-align: center;
+}
+
+.imagen-camila .p-azul{
+    color: #00d1ff;
+}
+
+.informacion-camila {
+    margin: 60px 20px 21px 40px
+}
+
+.parte-abajo-camila {
+    margin: -30px 0 30px 50px;
+}
+
+/* ____________________CAROLINA____________________ */
+
+.Carolina {
+    display: flex;
+    margin: 10px;
+}
+
+.imagen-carolina {
+    margin: 30px 30px 0 31px;
+}
+
+.imagen-carolina img{
+    height: 380px;
+}
+
+.imagen-carolina p{
+    text-align: center;
+}
+
+.imagen-carolina .p-azul{
+    color: #00d1ff;
+}
+
+.informacion-carolina {
+    margin-top: 60px;
+}
+
+.parte-abajo-carolina {
+    margin: -20px 0 100px 40px;
+}
+
+/* ____________________PARTE FINAL____________________ */
+
+.parte-final, .p-check, .estrategia-alcance, .tabla-capacidad, .arquetipos{
+    text-align: center;
+}
+
+.tabla-capacidad {
+    display: grid;
+    grid-template-areas:"1s 2s 3s"
+                        "4s 5s 3s";
+    grid-area: 1s;
+}
+
+.caja1{
+    grid-area: 2s;
+}
+
+.caja2{
+    grid-area: 3s;
+}
+
+.caja3{
+    grid-area: 4s;
+}
+
+.caja4{
+    grid-area: 5s;
+}
